@@ -1,0 +1,38 @@
+.container-time2{
+width: 1271px;
+height: 262px;
+border-radius: 40px;
+background-color: rgba(217, 217, 217, 0.2); /* 20% opaque grey */
+padding: 20px;
+;
+}
+.container-time{
+    width: 1381px;
+    height: 423px;
+    background-color: black;
+    background-image: url("public/external/Time.png");
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.Explore-button{
+width: 432px;
+height: 70px;
+color: blue;
+}
+
+.column-heading{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+.column-text{
+font-size: 32px;
+color: white ;
+}
+.vLine {
+    border-left: 2px solid white;
+    height: 100%;
+    margin: 0 5px; /* Adjust the margin as needed */
+}

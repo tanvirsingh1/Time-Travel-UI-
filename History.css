@@ -1,0 +1,73 @@
+.history-heading {
+    display: flex;
+justify-content: space-between
+;   gap:40px;
+    width: 1600px;
+    border: 2px red;
+}
+.white-line {
+    border: none;
+    height: 1px;
+    background-color: white;
+    width: 100%; 
+    margin: 20px 0;
+}
+
+body {
+    background-image: url("public/external/unsplashqfjsiok61xa4915-6k1-1100h.png");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    height: 100vh;
+    margin-top: 140px;
+}
+
+.container-Frame {
+    position: relative; /* Add relative positioning to the container frame */
+    width: 1600px;
+    height: 270px; /* Adjust the height as needed */
+    background-color: grey;
+    border: 1px solid black;
+    background-image: url("public/external/BERLIN.PNG");
+    background-size: cover;
+}
+
+.history-button {
+    width: 375px;
+    height: 97px;
+    border-radius: 20px;
+    position: absolute;
+    right: 9px; 
+    top: 9px;
+  
+}
+.history-text01{
+    position: absolute;
+    left: 22px;
+    bottom: 9px;
+    font-family: 'Roboto';font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.history-text02{
+    position: absolute;
+    right: 20px;
+    bottom: 9px;
+    font-family: 'Roboto';font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.Color-History{
+    color: #66B2B2;
+}
+.history-title{
+    font-family: 'Roboto';font-size: 36px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+}
