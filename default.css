@@ -1,0 +1,68 @@
+body {
+    
+    background-image: url("public/external/unsplashqfjsiok61xa4915-6k1-1100h.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5rem;
+    /* adjust as needed */
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 50px; /* adjust as needed */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.start-button {
+    background-color: #673AB7; /* purple color */
+    color: white;
+    border: none;
+    padding: 15px 70px;
+    font-size: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+   
+    
+}
+
+.start-button:hover {
+    background-color: #5e35b1; /* slightly darker purple on hover */
+}
+
+.login-input {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 15px;
+   
+}
+
+.login-container {
+    background: rgba(214, 202, 202, 0.3); /* Translucent background */
+    padding: 40px;
+    margin: 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 60%; 
+    height:40%;
+  
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
