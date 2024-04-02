@@ -15,7 +15,7 @@ h1 {
 h2 {
     font-size: 3rem;
     font-weight: normal;
-    margin-bottom: 50px; /* adjust as needed */
+    margin-bottom: 1em; /* adjust as needed */
 }
 
 .button-container {
@@ -67,3 +67,10 @@ h2 {
     justify-content: center;
 }
 
+.heading {
+    display: flex;
+justify-content: space-between;  
+ align-items: center;
+  
+    border: 2px red;
+}
