@@ -1,176 +1,72 @@
 
+body {
+  background-image: url("public/external/unsplashqfjsiok61xa4915-6k1-1100h.png");
+  background-size: cover;
 
-.infohub-container {
-width: 100%; 
-}
-.infohub-unsplash-q-fj-siok61x-a {
-  top: 0px;
-  text-align: center;
-  justify-content: center;
+}.container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  left: 0px;
-  width: 100%;
-  height: 1024px;
-  position: absolute;
-}
-.infohub-group1 {
-  top: 846px;
-  left: 345px;
-  width: 750px;
-  height: 123px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.infohub-group14 {
-  top: 0px;
-  left: 0px;
-  width: 750px;
-  height: 123px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(104, 109, 220, 0.6000000238418579);
-}
-.infohub-text {
-  top: 38px;
-  left: 115px;
-  color: rgba(255, 255, 255, 1);
-  width: 536px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: SemiBold;
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 600;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.infohub-text02 {
-  top: 77px;
-  left: 427px;
-  color: rgba(255, 255, 255, 1);
-  position: absolute;
-  font-size: 64px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Krona One;
-  font-weight: 400;
+  margin-top: 100px;
  
 }
-.infohub-group26 {
-  top: 182px;
-  left: 144px;
-  width: 1158px;
-  height: 630px;
+.row{
   display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.infohub-group24 {
-  top: 0px;
-  left: 0px;
-  width: 478px;
-  height: 630px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.infohub-rectangle16 {
-  top: 0px;
-  left: 513px;
-  width: 645px;
-  height: 630px;
-  position: absolute;
-  border-radius: 10px;
+  gap: 10px;
 }
 
-.infohub-group25 {
-  top: 476px;
-  left: 594px;
+
+.text-center{
+  font-family: 'Roboto';font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  align-items: center;
+}
+.info-details{
+  font-family: 'Roboto';font-size: 32px;
+
+  color: white;
+  position: relative;
+}
+.decp-text {
+  background-color: rgba(217, 217, 217, 0.2); 
+  padding-left: 80px; /* Padding from left side */
+  padding-right: 80px; /* Padding from right side */
+  padding-top: 40px; /* Padding from top */
+  padding-bottom: 40px; /* Padding from bottom */
+}
+.Additonal-button{
   width: 484px;
   height: 103px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  background-color: rgba(105, 110, 221, 0.8 );
+  font-family: 'Roboto';font-size: 30px;
+  border: none; 
+  color: white;
+
 }
-.infohub-group141 {
-  top: 0px;
-  left: 0px;
-  width: 484px;
+.addiotnal-text{
+  font-family: 'Roboto';font-size: 32px;
+
+}
+.Save-button {
+  display: flex; /* Make the container a flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin-top: 50px; /* Add margin from the top */
+  
+}
+.Explore-button{
+  width: 750px;
   height: 103px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(104, 109, 220, 0.6000000238418579);
+  background-color: rgba(105, 110, 221, 0.8 );
+  font-family: 'Roboto';font-size: 30px;
+  border: none; 
+  color: white;
 }
-.infohub-text04 {
-  top: 34px;
-  left: 70px;
-  color: rgba(255, 255, 255, 1);
-  width: 368px;
-  height: auto;
+#moved-piece-container {
   position: absolute;
-  font-size: 32px;
-  font-style: SemiBold;
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 600;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.infohub-text06 {
-  top: 242px;
-  left: 713px;
-  color: rgba(255, 255, 255, 1);
-  width: 558px;
-  height: auto;
-  position: absolute;
-  font-size: 36px;
-  font-style: SemiBold;
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 600;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.infohub-group30 {
-  top: 40px;
-  right: 0;
-  width: 122px;
-  height: 122px;
-  position: absolute;
-
-}
-
-
-.infohub-lucidechevronsleft {
-  top: 29px;
-  left: 5px;
-  width: 65px;
-  height: 65px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.infohub-letsiconsback {
-  top: 40px;
+  top: 30px;
   left: 30px;
-  width: 60px;
-  height: 60px;
-  position: absolute;
 }
