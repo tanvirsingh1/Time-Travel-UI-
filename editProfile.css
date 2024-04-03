@@ -1,0 +1,50 @@
+
+.container-time2{
+    width: 800px;
+    height: 500px;
+    border-radius: 40px;
+    background-color: rgba(217, 217, 217, 0.2); /* 20% opaque grey */
+    padding: 20px;
+    margin: 50px
+}
+
+.container-profile{
+    width: 1381px;
+    height: 100%;
+    background-color: black;
+    background-image: url("public/external/Time.png");
+    display: flex;
+    justify-content: space-between;
+}
+    
+.column-heading{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.column-text{
+    font-size: 32px;
+    color: white ;
+}
+
+.img-profile{
+    width: 200px;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.frm{
+    margin-top: 55px;
+    margin-right: 50px;
+}
+
+.form-label{
+    color: azure;
+    font-weight: bold;
+}
+
+.form-control{
+    color:midnightblue;
+    font-weight: bold;
+}
