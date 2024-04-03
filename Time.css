@@ -23,6 +23,8 @@ background-color: rgba(105, 110, 221, 0.8 );
 font-family: 'Roboto';font-size: 32px;
     color: white;
     border: none;
+text-decoration: none;
+margin-bottom: 10px;
 }
 
 .column-heading{

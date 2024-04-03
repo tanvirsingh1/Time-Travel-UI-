@@ -66,6 +66,9 @@ body {
   color: white;
   position: relative;;
   bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 25px;
 }
 #moved-piece-container {
   position: absolute;
