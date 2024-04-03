@@ -1,4 +1,10 @@
 
+
+body {
+    background-image: url("public/external/unsplashqfjsiok61xa4915-6k1-1100h.png");
+    background-size: cover;
+  
+  }
 .container-time2{
     width: 800px;
     height: 500px;
