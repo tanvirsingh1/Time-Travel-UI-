@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fullscreen Video Background</title>
+    <link rel="stylesheet" href="experience.css">
     <style>
         body, html {
             margin: 0;
@@ -28,10 +29,28 @@
 </head>
 <body>
 
-<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="video-background">
-    <source src="public\external\173363 (540p).mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+    <div class="floating-menu">
+        <a href="#" class="menu-button">☰</a>
+        <ul class="menu-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="History.html">History</a></li>
+          <li><a href="Time.html">Favourites</a></li>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </div>
+
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="video-background">
+        <source src="public\external\173363 (540p).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="control-back" style="margin-right: 20px;">
+        <a class="control-button"><<</a>
+    </div>
+    <div class="control-forward" style="margin-left: 20px;">
+        <a class="control-button">>></a>
+    </div>
+    <script src="script.js"></script>
 
 </body>
 </html>
