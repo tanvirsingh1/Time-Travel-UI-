@@ -2,14 +2,14 @@
    display: flex;
    justify-content: space-between;
    gap:40px;
-    width: 1600px;
+    width: 1400px;
     border: 2px red;
 }
 .white-line {
-    border: none;
-    height: 1px;
+    
+    height: 2px;
     background-color: white;
-    width: 100%; 
+    width: 1400px; 
     margin: 20px 0;
 }
 
@@ -24,8 +24,8 @@
 
 .container-Frame {
     position: relative; /* Add relative positioning to the container frame */
-    width: 1600px;
-    height: 270px; /* Adjust the height as needed */
+    width: 1400px;
+    height: 270px;
     background-color: grey;
     border: 1px solid black;
     background-image: url("public/external/BERLIN.PNG");
