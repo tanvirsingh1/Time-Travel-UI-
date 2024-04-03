@@ -23,7 +23,7 @@
         
             <h1>Sign Up</h1>
             
-            <form class="form-container">
+            <form class="form-container" >
             <div class="login-container">
                 <label for="email" style="font-size: 2em ; font-weight: bold; margin: 1em; margin-top: 0.5em;">Enter your email</label><br>
                 <input type="email" class="form-control login-input" id="email" placeholder="Enter your email" required />
@@ -31,11 +31,13 @@
                 <input type="password" class="form-control login-input" id="password" placeholder="Enter your password" required />
                 <label for="password" style="font-size: 2em ; font-weight: bold; margin: 1em;">Confirm password</label><br>
                 <input type="password" class="form-control login-input" id="password" placeholder="Enter your password" required />
+
+                <div style="display: flex; flex-direction: row;  justify-content: space-between; margin: 2em;" >
+                <a href="signIn.html" class="btn start-button" style="width: 50%;">Go to Log In</a>
+                <a href="Home.html" class="btn start-button" style="width: 50%;">Sign Up</a>
+                </div>
             </div>
-            <div style="display: flex; flex-direction: row;  justify-content: space-between;">
-                <a href="signIn.html" class="btn start-button" style="margin-right: 2em; margin-top: 1em;">Go back to Log In</a>
-                <a href="" class="btn start-button" style="align-self: flex-start; margin-right: 2em; margin-top: 1em;">Sign Up</a>
-            </div>
+            
             </form>
         
         <!-- Bootstrap JavaScript Libraries -->

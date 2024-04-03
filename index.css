@@ -37,15 +37,7 @@ body {
   padding-top: 40px; /* Padding from top */
   padding-bottom: 40px; /* Padding from bottom */
 }
-.Additonal-button{
-  width: 484px;
-  height: 103px;
-  background-color: rgba(105, 110, 221, 0.8 );
-  font-family: 'Roboto';font-size: 30px;
-  border: none; 
-  color: white;
 
-}
 .addiotnal-text{
   font-family: 'Roboto';font-size: 32px;
 
@@ -66,6 +58,9 @@ body {
   color: white;
   position: relative;;
   bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 25px;
 }
 #moved-piece-container {
   position: absolute;

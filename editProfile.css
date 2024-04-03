@@ -1,38 +1,14 @@
 
 
-body {
-    background-image: url("public/external/unsplashqfjsiok61xa4915-6k1-1100h.png");
-    background-size: cover;
-  
-  }
 .container-time2{
-    width: 800px;
-    height: 500px;
+    width: 70%;
+    height: 60%;
     border-radius: 40px;
     background-color: rgba(217, 217, 217, 0.2); /* 20% opaque grey */
     padding: 20px;
-    margin: 50px
+   
 }
 
-.container-profile{
-    width: 1381px;
-    height: 100%;
-    background-color: black;
-    background-image: url("public/external/Time.png");
-    display: flex;
-    justify-content: space-between;
-}
-    
-.column-heading{
-    font-size: 32px;
-    color: white;
-    font-weight: bold;
-}
-
-.column-text{
-    font-size: 32px;
-    color: white ;
-}
 
 .img-profile{
     width: 200px;

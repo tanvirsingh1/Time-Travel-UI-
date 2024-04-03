@@ -27,7 +27,8 @@ h2 {
     background-color: #673AB7; /* purple color */
     color: white;
     border: none;
-    padding: 15px 70px;
+    padding:  0.5em 1em;
+    margin: 0.5em;
     font-size: 3rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
