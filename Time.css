@@ -19,7 +19,10 @@ padding: 20px;
 .Explore-button{
 width: 432px;
 height: 70px;
-color: blue;
+background-color: rgba(105, 110, 221, 0.8 );
+font-family: 'Roboto';font-size: 32px;
+    color: white;
+    border: none;
 }
 
 .column-heading{
@@ -29,6 +32,10 @@ color: blue;
 }
 .column-text{
 font-size: 32px;
+color: rgba(255, 255, 255, 0.2)
+}
+.column-text2{
+    font-size: 32px;
 color: white ;
 }
 .vLine {
