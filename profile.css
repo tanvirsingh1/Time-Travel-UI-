@@ -1,0 +1,105 @@
+
+.container-time2{
+    width: 670px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(105, 110, 221, 0.6); /* 20% opaque grey */
+    padding: 20px;
+    margin: 50px
+}
+
+.container-profile{
+    width: 1381px;
+    height: 100%;
+    background-color: black;
+    background-image: url("public/external/Time.png");
+    display: flex;
+    justify-content: space-between;
+}
+    
+.column-heading{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.column-text{
+    font-size: 32px;
+    color: white ;
+}
+
+.img-profile{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.frm{
+    margin-top: 55px;
+    margin-right: 50px;
+}
+
+.form-label{
+    color: azure;
+    font-weight: bold;
+}
+
+.form-control{
+    color:midnightblue;
+    font-weight: bold;
+}
+
+.profile-info{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 0.2); /* 20% opaque grey */
+    padding: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.button-profile{
+    background-color: #696EDD;
+    margin-right: 40px;
+    border-radius: 52px;
+    color: white;
+    font-weight:600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.check-options{
+    margin-left: 20px;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800;
+}
+
+.options-button{
+    background-color: #C9CBF2;
+    margin: 20px;
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    color: #3E4182;
+    font-weight:bold;
+    font-size: larger;
+}
+
+.button-logout{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 40px;
+    background-color: #E63454;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
